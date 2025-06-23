@@ -10,7 +10,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin(origins = {"https://ghibli-art-generator-frontend.vercel.app"})
 @RequiredArgsConstructor
 public class GenerationController {
 
